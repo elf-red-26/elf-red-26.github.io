@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <input type="number" max="20" id="score" placeholder="Enter Score">
+            <button onclick="checkScore()">Check Score</button>
+            <!-- <p id="result"></p> -->
+        </div>
+    </div>
+
+    <dialog id="resultDialog">
+        <p id="result"></p>
+        <button onclick="closeDialog()">&#x2715;</button>
+    </dialog>
+</body>
+
+</html>
